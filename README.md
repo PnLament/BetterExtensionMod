@@ -5,7 +5,7 @@
 ## 当前进度（v0.1.3）
 
 - 新增多组自定义怪物、遭遇与 Boss 战。
-- 新增事件与遗物玩法链路（含九尾狐相关内容）。
+- 新增事件与遗物玩法链路。
 - 新增多种自定义 Power 与意图表现。
 - 支持多人难度系数配置（`BetterExtension/config/multiplayer_scaling.json`），可按 Act、遭遇、怪物与 Power 细分覆盖。
 
