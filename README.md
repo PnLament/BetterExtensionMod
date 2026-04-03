@@ -14,7 +14,6 @@
 1. 从 Releases 下载最新构建产物。
 2. 确保以下文件位于同一模组目录下：
    - `BetterExtension.dll`
-   - `BetterExtension.pdb`
    - `BetterExtension.pck`
    - `BetterExtension.json`
 3. 将该目录放入游戏运行目录下的 `mods/`。
