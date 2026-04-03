@@ -1,9 +1,9 @@
 {
   "id": "BetterExtension",
   "name": "Better Extension",
-  "author": "水木年华",
-  "description": "怪物与事件扩展mod",
-  "version": "v0.1.3",
+  "author": "Arc_Fkkk",
+  "description": "怪物与事件拓展mod",
+  "version": "v0.1.3[beta]",
   "has_pck": true,
   "has_dll": true,
   "dependencies": [],
