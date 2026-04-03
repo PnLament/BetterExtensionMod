@@ -1,0 +1,2 @@
+# BetterExtensionMod
+针对杀戮尖塔2的怪物与事件多样性拓展mod，持续更新中
