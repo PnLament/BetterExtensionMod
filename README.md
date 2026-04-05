@@ -14,30 +14,6 @@ A continuously updated monster and event expansion mod for Slay the Spire 2.
 - Multiplayer scaling supports a user-side editable JSON file that is generated automatically on first launch.
 - A public in-game configuration panel is not available yet.
 
-## Changes Since v0.1.5 
-
-1. Multiplayer scaling reliability and sync checks
-   - Config load priority now prefers `mods/BetterExtension/config/multiplayer_scaling.jsonc`, with fallback to the old AppData path and packaged defaults.
-   - Editable config is auto-generated on first launch, and old user config is migrated when available.
-   - JSON parser now accepts comments and trailing commas.
-   - In multiplayer sessions, BetterExtension logs config source + fingerprint and injects this fingerprint into gameplay-relevant mod identity.
-   - If peers use different scaling config data, the game blocks joining before run start via the built-in `Mod mismatch` flow.
-
-2. Stuck-state fallback command
-   - Added network-synced console command `skip`.
-   - In combat: force-cleans live enemies and pushes combat to settlement flow (with safety fallback).
-   - In event rooms: force-enables map travel, with fallback transition back to map room.
-
-3. Stability and compatibility patches
-   - Added game-over compatibility safety patch for score-line and badge insertion (`AddScoreLine` / `AddBadge`), including safer icon/control creation fallback paths.
-   - Updated monster visuals wrapping logic to include explicit registry-based layouts.
-
-4. Gameplay and balance updates
-   - `MutantHorsehairWorm`: host summon pool now pulls from Hive regular encounters with explicit incompatible-target exclusions; max HP and reveal-heal values tuned.
-   - `HarborSiren`: HP and multi-hit damage tuned; mist gain now has ascension-based scaling.
-   - `BetterExtensionAssemblyPower`: artifact stacks granted to fused boss reduced (`5 -> 3`).
-   - Localization text for selected monster/power entries refreshed.
-
 ## Compatibility
 
 This mod is built to scale alongside other character mods. Verified compatibility entries will continue to be updated.
